@@ -1,0 +1,19 @@
+{
+  "exclude": [
+    ".venv"
+  ],
+  "venvPath": "./csv_modifs/",
+  "stubPath": "./typestubs",
+  "reportTypeshedErrors": false,
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "executionEnvironments": [
+    {
+      "root": "./",
+      "venv": "./",
+      "extraPaths": [
+        "./3rd-modules"
+      ]
+    }
+  ]
+}
